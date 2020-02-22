@@ -14,3 +14,7 @@ So the service running on www.google.com:8000 can be completely different than t
 The port that we generally use for flask is 5000. The data for each unique app comes in and out of its unique port.
 * Debug: This is just a flag to print out detailed error messages if you get an error. You don't want this when your site is deployed for final use because these detailed messages can give away secrets/info that you want to keep private.
 '''
+
+# strftime()
+
+The strftime() method takes a date/time object and then converts that to a string according to a given format. now() method gets the current time
