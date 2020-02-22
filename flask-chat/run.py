@@ -35,8 +35,7 @@ def user(username):
         add_message(username, message)
         return redirect(url_for("user", username=session["username"]))
 
-    return render_template("chat.html", username=username,
-                           chat_messages=messages)
+    return render_template("chat.html", username=username, chat_messages=messages)
 
 
 # app.run(host='0.0.0.0', port=5000, debug=True)
