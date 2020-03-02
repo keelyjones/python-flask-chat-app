@@ -1,20 +1,3 @@
 # Flask Chat App
 
 This is a chat application written in Flask.  The purpose of this project is to take data from a URL and store the information in a list.
-
-# Notes:
-
-```app.run(host='0.0.0.0', port=5000, debug=True)```
-
-This line makes your python app (all of the code written in the file before it) run on the server. You pass it three parameters:
-* Host: This parameter tells gitpod which online server to run the app on. In this case it will be 0.0.0.0, which tells it to run on the current server (i.e. Gitpod).
-* Port: So you can think of a port like a... port. Instead of ships coming in and loading/unloading, it's data.
-Each server could have hundreds of applications running, and the port number is a way of making each unique.
-So the service running on www.google.com:8000 can be completely different than the one running on www.google.com:8001.
-The port that we generally use for flask is 5000. The data for each unique app comes in and out of its unique port.
-* Debug: This is just a flag to print out detailed error messages if you get an error. You don't want this when your site is deployed for final use because these detailed messages can give away secrets/info that you want to keep private.
-'''
-
-# strftime()
-
-The strftime() method takes a date/time object and then converts that to a string according to a given format. now() method gets the current time
